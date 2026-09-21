@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "DevOps CI/CD Pipeline Web Application",
     "scripts": {
-        "test": "echo \"Tests executed successfully\""
+        "build": "node scripts/build.js",
+        "test": "node scripts/test.js"
     }
 }
