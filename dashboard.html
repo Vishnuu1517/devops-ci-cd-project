@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>CI/CD Dashboard</h2>
+    <a href="index.html">Home</a>
+</nav>
+
+<section class="dashboard">
+
+    <div class="panel">
+        <h3>Pipeline Status</h3>
+
+        <p id="status">
+            Waiting for execution...
+        </p>
+
+        <button onclick="runPipeline()">
+            Run Pipeline
+        </button>
+    </div>
+
+    <div class="panel">
+
+        <h3>Build Logs</h3>
+
+        <pre id="logs">
+No logs available
+        </pre>
+
+    </div>
+
+</section>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
